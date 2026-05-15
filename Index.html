@@ -1,1 +1,91 @@
-
+<html>
+  <head>
+    <title>
+      trying to know flatno's
+    </title>
+    <style>
+      body{
+        background-image:url("https://i.ibb.co/67SRSvYX/5d01a7d6714b561a44cc3443-84148-44242-original.jpg"); 
+        background-size:;
+        background-repeat:;
+        background-color:yellow;
+        border-style:dotted;
+        color:red;
+        font-size:30;
+      }
+      div{
+        background-color:;
+        color:;0
+        border-style:dashed;
+        border-radius:20px;
+        padding:10px;
+        width:%;
+      }
+      button{
+        background-color:;
+        color:black;
+        padding:10px;
+        width:70%;
+        border-radius:20px;
+        border-style:double;
+        cursor:pointer;
+      }
+      button:hover{
+        background-color:orange;
+        color:blue;
+      }
+      marquee,p,h4,h6{
+        background-color:black;
+        color:red;
+        border-radius:10px;
+        border-style:dotted;
+        border-color:yellow;
+        
+      }
+      .box{
+        height:px;
+        border:1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+    <h6>flat details of venus banjara apartment</h6>
+      <h6>flat no's in first floor</h6>
+      <button onclick="ShowOwner('101','sathyavati medam')">flat no 101</button>
+      <button onclick="ShowOwner('102','sathyavati medam')">flat no 102</button>
+      <button onclick="ShowOwner('103','Narasimha Naresh sir')">flat no 103</button>
+      <button onclick="ShowOwner('104','')">Flat no 104</button>
+      <h6>Flat no's in second Floor</h6>
+      <button onclick="ShowOwner('201','Suresh Padhmarao Sir')">Flat no 201</button>
+      <button onclick="ShowOwner('202','Sam Mohan Sir')">Flat no 202</button>
+      <button onclick="ShowOwner('203','SithaRam Sir')">Flat no 203</button>
+      <button onclick="ShowOwner('204','Murthy Sir')">Flat no 204</button>
+    <h4>Flat no's in Third Floor</h4>
+      <button onclick="ShowOwner('301','Dilip Kumar Sir')">Flat no 301</button>
+      <button onclick="ShowOwner('302','SathyaNarayan Sir')">Flatt no 302</button>
+      <button onclick="ShowOwner('303','')">Flat No 303</button>
+      <button onclick="ShowOwner('304','Trilok Sir')">Flat No 304</button>
+    <h4>Flat No's in forth floor</h4>
+      <button onclick="ShowOwner('401','PreamDatta Sir')">Flat No 401</button>
+      <button onclick="ShowOwner('402','Sri Ram Sir')">Flat No 402</button>
+      <button onclick="ShowOwner('403','Prakash Reddy Sir')">Flat No 403</button>
+      <button onclick="ShowOwner('404','christan Sir')">Flat No 404</button>
+       <h4>Flat No's in fivth Floor</h4>
+      <button onclick="ShowOwner('501','Prasad Rao Sir')">Flat No 501</button>
+      <button onclick="ShowOwner('502','Kumar Sir')">Flat No 502</button>
+      <button onclick="ShowOwner('503','Chandra Shekar Sir')">Flat No 503</button>
+      <button onclick="ShowOwner('504','Kapil Sir')">Flat No 504</button>
+      
+    </div>
+    <b><p id="output"></p></b>
+    <marquee>Venus banjara</marquee>
+    
+    
+  </body>
+  <script>
+    function ShowOwner(flatno,owner){
+      document.getElementById("output").innerText=" flatno " + flatno + " owner is " + owner;
+    }
+  </script>
+</html>
